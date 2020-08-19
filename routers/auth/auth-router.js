@@ -5,7 +5,7 @@ const secrets = require('../../config/secrets');
 
 const Users = require('../users/users-model');
 
-// For endpoints beginning with /api/auth
+// For endpoints beginning with /auth
 
 router.post('/register', (req, res) => {
   let user = req.body;
